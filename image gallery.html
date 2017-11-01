@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>image gallery</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="scrollup-master/dist/jquery.scrollUp.min.js"></script>
+</head>
+
+<body>
+<div class="button">
+<a href="home page.html"><img id="navicon" src="images/home.png"></a>
+</div>
+
+<h2 class="title">A quick view at some memorable moments in the life of Valérie</h2>
+
+<iframe width="550" height="350" src="https://www.youtube.com/embed/c__LYrHAL9M" frameborder="0" gesture="media" allowfullscreen></iframe>
+
+<div class="gallery">
+ <a target="_blank" href="images/minime.jpg">
+ <img src="images/minime.jpg" alt="Mini me">
+ </a>
+ <div>Mini me at 4 years old</div>
+ </div>
+
+<div class="gallery">
+ <a target="_blank" href="images/valbayonne.jpeg">
+ <img src="images/valbayonne.jpeg" alt="Sixteen at the 'Fetes de Bayonne', French Basque country">
+ </a>
+ <div >Sixteen at the 'Fetes de Bayonne', French Basque country</div>
+ </div>
+
+ <div class="gallery">
+ <a target="_blank" href="images/flamenco.jpg">
+ <img src="images/flamenco.jpg" alt="Flamenco performance in Mexico, 2013">
+ </a>
+ <div>Flamenco performance in Mexico, 2013</div>
+ </div>
+
+ <div class="gallery">
+ <a target="_blank" href="images/mexico.jpg">
+ <img src="images/mexico.jpg" alt="Chiapas, Mexico">
+ </a>
+ <div>Chiapas, Mexico</div>
+ </div>
+
+<div class="gallery">
+ <a target="_blank" href="images/graduation.jpg">
+ <img src="images/graduation.jpg" alt="Bachelor graduation">
+ </a>
+ <div>Bachelor graduation, 22 years old</div>
+ </div>
+
+<div class="gallery">
+ <a target="_blank" href="images/colombia.jpg">
+ <img src="images/colombia.jpg" alt="Walking through the forest of Cocora, Colombia">
+ </a>
+ <div>Walking through the forest of Cocora, Colombia</div>
+ </div>
+
+<div class="gallery">
+ <a target="_blank" href="images/ski.jpg">
+ <img src="images/ski.jpg" alt="Skiing with my buddies in Val Frejus">
+ </a>
+ <div>Skiing with my buddies in Val Frejus</div>
+ </div>
+
+ <div class="gallery">
+ <a target="_blank" href="images/illu.jpg">
+ <img src="images/illu.jpg" alt="Summer holidays with friends in the south of France">
+ </a>
+ <div>Summer holidays with friends in the south of France</div>
+ </div>
+
+ <div class="gallery">
+ <a target="_blank" href="images/lotje.jpg">
+ <img src="images/lotje.jpg" alt="Gouda de Gekste, 2015">
+ </a>
+ <div>Gouda de Gekste, 2015</div>
+ </div>
+
+<div class="gallery">
+ <a target="_blank" href="images/waitingbus.jpg">
+ <img src="images/waitingbus.jpg" alt="Waiting for more people to come, Tanzania">
+ </a>
+ <div>Waiting for more people to come, Tanzania</div>
+ </div>
+
+<div class="gallery">
+ <a target="_blank" href="images/mais.jpg">
+ <img src="images/mais.jpg" alt="I just love corn!">
+ </a>
+ <div>I just love corn!</div>
+ </div>
+
+<div class="gallery">
+ <a target="_blank" href="images/skidive.jpg">
+ <img src="images/skidive.jpg" alt="Landing after having skidived, Mexico">
+ </a>
+ <div>Landing after having skidived, Mexico</div>
+ </div>
+
+ <div class="gallery">
+ <a target="_blank" href="images/lowlands.jpg">
+ <img src="images/lowlands.jpg" alt="Lowlands 2016">
+ </a>
+ <div>Lowlands 2016</div>
+ </div>
+
+<div class="gallery">
+ <a target="_blank" href="images/carnaval.jpg">
+ <img src="images/carnaval.jpg" alt="Carnaval in Breda (2017)">
+ </a>
+ <div>Carnaval in Breda (2017)</div>
+ </div>
+
+
+<style type="text/css">
+body {
+  background-color: #476b6b;
+}
+
+div.gallery {
+ margin: 5px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ float: left;
+ width: 180px;
+ background-color: #ccc
+ }
+
+div.gallery img {
+ width: 100%;
+ height: auto;
+ }
+div.desc {
+ padding: 15px;
+ text-align: center;
+ }
+
+.responsive {
+ padding: 0 6px;
+ float: left;
+ width: 24.99999%;
+ }
+
+@media only screen and (max-width : 480px) {
+ .responsive {
+ width: 100%;
+ padding-bottom: 100%;
+   }
+}
+ @media only screen and (max-width : 650px) and (min-width 
+: 481px) {
+ .responsive {
+ width: 50%;
+ padding-bottom: 50%;
+  }
+}
+ @media only screen and (max-width : 1050px) and (min-width 
+: 651px) {
+ .responsive {
+ width: 33.3%;
+ padding-bottom: 33.3%;
+  }
+}
+ @media only screen and (max-width : 1290px) and (min-width 
+: 1051px) {
+ .responsive {
+ width: 25%;
+ padding-bottom: 25%;
+  }
+}
+
+#navicon {
+        text-align: center;
+        display: block;
+        width: 4%;
+        margin-top: 1%;
+        margin-left: 2%;
+        position: relative;
+        border-radius: 6px;
+        padding: 4px 0.5px 4px 0.5px;
+        background-color: #2F4F4F;
+    }
+
+#navicon:hover {
+    background-color: maroon;
+  }
+
+  h2 {
+  border: 1px;
+  padding: 4px 20px;
+  border-radius: 6px;
+  margin-top: 1%;
+  color: white;
+  text-align: center;
+  background-image: url("images/Autumn.jpg");
+}
+
+  .button{
+      clear: both;
+    }
+
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  border-radius: 6px;
+  padding: 10px 20px;
+  background: #2F4F4F;
+  color: white;
+}
+#scrollUp:hover {
+    background-color: maroon;
+}
+
+</style>
+
+<script type="text/javascript">
+  $(function () {
+  $.scrollUp({
+    scrollName: 'scrollUp', 
+    topDistance: '100', 
+    topSpeed: 200, 
+    animation: 'fade', 
+    animationInSpeed: 200, 
+    animationOutSpeed: 200, 
+    scrollText: 'Back to top', 
+    activeOverlay: false, 
+  });
+});
+  
+</script>
+</body>
+</html>
